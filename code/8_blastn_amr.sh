@@ -1,0 +1,2 @@
+#!/bin/sh
+for i in `cat nonore.list.txt`; do /ifs1/User/mgq_st/software/ncbi-blast-2.16.0+/bin/blastn -task blastn -query /ifs1/User/mgq_st/test2_hebing/5_fasta/$i.fasta -db AMR_CDS.txt -out /ifs1/User/mgq_st/test2_hebing/8_amr_blastn/$i.txt -outfmt 6 -evalue 1e-5 -max_target_seqs 1 -num_threads 20;done

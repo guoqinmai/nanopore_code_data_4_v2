@@ -1,0 +1,2 @@
+#!/bin/sh
+for i in `cat nonore.list.txt`; do /ifs1/User/mgq_st/software/Filtlong/bin/filtlong --min_length 500 --min_mean_q 90 /ifs1/User/mgq_st/test2_hebing/$i | gzip> /ifs1/User/mgq_st/test2_hebing/1_zhikong/$i;done
