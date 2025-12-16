@@ -29,5 +29,5 @@ The sample with the highest proportion of the product(all_ratio) was considered 
 
 You can run it step by step, or integrate it into one code to run automatically(run_scripts.sh). It should be noted that the sequence of automatically running code should not be changed.
 
-datas file:\data
+datas file:\code
 
