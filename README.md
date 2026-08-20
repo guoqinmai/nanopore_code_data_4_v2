@@ -20,7 +20,7 @@ This repository contains scripts and manuscript materials for nanopore‑based p
 ## Citation
 If you use this pipeline or the `all_ratio` algorithm in your research, please cite our manuscripts:
 1.Mai, G., Dai, Y..PathoResist AI: A One-Click Web Platform for Rapid Pathogen Resistance Analysis Based on the all_ratio Algorithm，https://doi.org/10.64898/2026.02.12.705264, submitted.
-2.Mai,G., Zhang, W.,Zhang, Y., et al. Performance Evaluation of the all_ratio Algorithm for Pathogenic Microorganism and Antibiotic Resistance Gene Detection Using Nanopore Sequencing. submitted
+2.Mai,G., Zhang, W.,Zhang, Y., et al. Performance Evaluation of the all_ratio Algorithm for Pathogenic Microorganism and Antibiotic Resistance Gene Detection Using Nanopore Sequencing. submitted。
 3.Mai, G., Chen, J., Zhang, M. et al. Construction of a pathogenic microorganism detection method based on third-generation nanopore sequencing data. BMC Infect Dis 25, 189 (2025). https://doi.org/10.1186/s12879-025-10559-5
 
 ## Requirements
