@@ -1,4 +1,6 @@
-
+# Citation
+1. Mai,G., Zhang, W.,Zhang, Y., et al. Performance Evaluation of the all_ratio Algorithm for Pathogenic Microorganism and Antibiotic Resistance Gene Detection Using Nanopore Sequencing. submitted
+2. Mai, G., Chen, J., Zhang, M. et al. Construction of a pathogenic microorganism detection method based on third-generation nanopore sequencing data. BMC Infect Dis 25, 189 (2025). https://doi.org/10.1186/s12879-025-10559-5
 
 Step 1:quality control, code:1_zhikong.sh
 
