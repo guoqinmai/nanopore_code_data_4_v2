@@ -7,8 +7,8 @@ This repository contains scripts and manuscript materials for nanopore‑based p
 - `code/`: Source shell and python scripts for data analysis pipeline
 - `manuscript_cli/`: Manuscript and workflow documentation for source-code version and packaged version.
 - The source-code version allows parameter modification, while the packaged version enables easy installation and simple operation.
-###source-code version### https://github.com/guoqinmai/nanopore_code_data_4_v2/
-###packaged version### https://github.com/guoqinmai/nanopore_code_data_4_v2/releases/tag/allratio_cli_v2
+- source-code version https://github.com/guoqinmai/nanopore_code_data_4_v2/tree/main/code
+- packaged version https://github.com/guoqinmai/nanopore_code_data_4_v2/releases/tag/allratio_cli_v2
 - `manuscript_web/`: Web‑related manuscript materials
 
 ## Workflow Summary
