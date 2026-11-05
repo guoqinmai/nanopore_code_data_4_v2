@@ -21,7 +21,7 @@ This repository contains scripts and manuscript materials for nanopore‑based p
 7. `all_ratio` metric calculation for suspect AMR gene identification
 
 ## Citation
-If you use this pipeline or the `all_ratio` algorithm in your research, , you may cite our manuscripts:
+If you use this pipeline or the `all_ratio` algorithm in your research, you may cite our manuscripts:
 
 1. Mai, G., Chen, J., Zhang, M. et al. Construction of a pathogenic microorganism detection method based on third-generation nanopore sequencing data. BMC Infect Dis 25, 189 (2025). https://doi.org/10.1186/s12879-025-10559-5
 
