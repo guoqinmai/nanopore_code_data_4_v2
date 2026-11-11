@@ -26,8 +26,6 @@ for i in ls *.gz;do allratio $i;done
 4-2. Batch_run allratio, OR script as follows:
 allratio 1.fastq.gz 2.fastq.gz 3.fastq.gz
 
-https://github.com/guoqinmai/nanopore_code_data_4_v2/tree/main/code
-
 
 ####### Source version：https://github.com/guoqinmai/nanopore_code_data_4_v2/tree/main/code
 
