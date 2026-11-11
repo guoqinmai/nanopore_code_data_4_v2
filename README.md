@@ -73,6 +73,8 @@ for i in ls *.gz;do allratio $i;done
 allratio 1.fastq.gz 2.fastq.gz 3.fastq.gz
 
 
+
+
 ####### Source version：https://github.com/guoqinmai/nanopore_code_data_4_v2/tree/main/code
 
 ####Step-by-step instructions for the source version
