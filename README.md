@@ -36,3 +36,60 @@ If you use this pipeline or the `all_ratio` algorithm in your research, you may 
 
 ## License
 MIT
+
+####### Packaged version:https://github.com/guoqinmai/nanopore_code_data_4_v2/releases/tag/allratio_cli_v2
+
+####Step-by-step instructions for the packaged version
+
+Upload compressed package, then decompress
+tar -xzf allratio-user-release.tar.gz
+
+Enter directory and perform installation
+cd allratio-user-release && bash install-user.sh
+
+Enter working directory, upload sequencing files for analysis
+cd ~/allratio
+
+Run analysis
+allratio SRR21494933.fastq.gz
+
+Analysis results will be generated under this directory
+~/allratio
+
+4-1. Batch_run allratio, script as follows:
+
+for i in ls *.gz;do allratio $i;done
+
+4-2. Batch_run allratio, OR script as follows:
+
+allratio 1.fastq.gz 2.fastq.gz 3.fastq.gz
+
+####### Source version：https://github.com/guoqinmai/nanopore_code_data_4_v2/tree/main/code
+
+####Step-by-step instructions for the source version
+
+Step 1:quality control, code:1_zhikong.sh
+
+Step 2:removal of host contamination,code:2_suzhu.sh
+
+Step 3:Compressed files,code:3_yasuo.sh
+
+Step 4:Unzip files,code:4_jieya.sh
+
+Step 5:converted from FASTQ format to FASTA format,code:5_fasta.sh
+
+Step 6:aligned with the genome of pathogenic microorganisms using BLASTN software,code:6_blastn.sh
+
+Step 7: calculating the parameters of the pathogenic microorganism BLASTN results. These parameters, including the number of matches, average, sum, reads_ratio, and all_sum, are related to the possible pathogenic microorganisms. Therefore, they were multiplied to obtain the product, and the proportion of each product was calculated. The proportions of the products(all_ratio) are arranged in descending order.
+
+The sample with the highest proportion of the product(all_ratio) was considered the suspected pathogen of the sample.code:7_bingyuanjun_tongji.py
+
+Step 8:aligned with the AMR (Antimicrobial Resistance,AMR) genes using BLASTN software,code:8_blastn_amr.sh
+
+Step 9: calculating the parameters of the AMR BLASTN results. These parameters, including the number of matches, average, sum, reads_ratio, and all_sum, are related to the possible AMR genes. Therefore, they were multiplied to obtain the product, and the proportion of each product(all_ratio) was calculated. The proportions of the products are arranged in descending order.
+
+The sample with the highest proportion of the product(all_ratio) was considered the suspected AMR genes of the sample.code:9_bingyuanjun_tongji.py
+
+You can run it step by step, or integrate it into one code to run automatically(run_scripts.sh). It should be noted that the sequence of automatically running code should not be changed.
+
+datas file:\code
