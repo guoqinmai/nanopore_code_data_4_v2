@@ -37,7 +37,10 @@ If you use this pipeline or the `all_ratio` algorithm in your research, you may 
 ## License
 MIT
 
-####### Packaged version:https://github.com/guoqinmai/nanopore_code_data_4_v2/releases/tag/allratio_cli_v2
+
+## Code usage
+
+####### Packaged version:https://github.com/guoqinmai/nanopore_code_data_4_v2/releases/download/allratio_cli_v2/allratio-user-release.tar.gz
 
 ####Step-by-step instructions for the packaged version
 
