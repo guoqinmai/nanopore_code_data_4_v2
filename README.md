@@ -45,18 +45,23 @@ MIT
 ####Step-by-step instructions for the packaged version
 
 Upload compressed package, then decompress
+
 tar -xzf allratio-user-release.tar.gz
 
 Enter directory and perform installation
+
 cd allratio-user-release && bash install-user.sh
 
 Enter working directory, upload sequencing files for analysis
+
 cd ~/allratio
 
 Run analysis
+
 allratio SRR21494933.fastq.gz
 
 Analysis results will be generated under this directory
+
 ~/allratio
 
 4-1. Batch_run allratio, script as follows:
@@ -66,6 +71,7 @@ for i in ls *.gz;do allratio $i;done
 4-2. Batch_run allratio, OR script as follows:
 
 allratio 1.fastq.gz 2.fastq.gz 3.fastq.gz
+
 
 ####### Source version：https://github.com/guoqinmai/nanopore_code_data_4_v2/tree/main/code
 
