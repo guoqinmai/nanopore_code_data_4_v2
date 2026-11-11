@@ -44,23 +44,23 @@ MIT
 
 ####Step-by-step instructions for the packaged version
 
-###1 Upload compressed package, then decompress
+###1. Upload compressed package, then decompress
 
 tar -xzf allratio-user-release.tar.gz
 
-###2 Enter directory and perform installation
+###2. Enter directory and perform installation
 
 cd allratio-user-release && bash install-user.sh
 
-###3 Enter working directory, upload sequencing files for analysis
+###3. Enter working directory, upload sequencing files for analysis
 
 cd ~/allratio
 
-###4 Run analysis
+###4. Run analysis
 
 allratio SRR21494933.fastq.gz
 
-###5 Analysis results will be generated under this directory
+###5. Analysis results will be generated under this directory
 
 ~/allratio
 
