@@ -2,7 +2,7 @@
 1. Mai, G., Chen, J., Zhang, M. et al. Construction of a pathogenic microorganism detection method based on third-generation nanopore sequencing data. BMC Infect Dis 25, 189 (2025). https://doi.org/10.1186/s12879-025-10559-5
 2. Mai,G., Zhang, W.,Zhang, Y., et al. Performance Evaluation of the all_ratio Algorithm for Pathogenic Microorganism and Antibiotic Resistance Gene Detection Using Nanopore Sequencing. submitted
 
-####### Packaged version:https://github.com/guoqinmai/nanopore_code_data_4_v2/releases/download/allratio_cli_v2/allratio-user-release.tar.gz 
+####### Packaged version: https://github.com/guoqinmai/nanopore_code_data_4_v2/releases/download/allratio_cli_v2/allratio-user-release.tar.gz 
 
 ####Step-by-step instructions for the packaged version
 1. Upload compressed package, then decompress
